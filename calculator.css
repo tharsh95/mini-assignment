@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+.container{
+    text-align: center;
+    margin-top: auto;
+}
+html{
+    /* background-color: darkgray; */
+    font-family: 'Cedarville Cursive';
+    /* font-size: 150%; */
+}
+
+table{
+    margin: auto;
+}
+input{
+    font-size: 45px;
+    width: auto;
+    border: 5px solid #0dc5fd;
+    border-radius: 21px;
+    padding-bottom: 30px;
+    margin-bottom: 5%;
+    font-family: 'Cedarville Cursive';
+
+}
+button{
+    
+    font-size: 23px;
+    font-family: 'Cedarville Cursive';
+    outline: none;
+    height: 88px;
+    width: 102px;
+    background-color: #0dc5fd;
+    border-radius: 21px;
+}
+button:hover{
+    background: black;
+    color:white;
+}
+.calculator{
+    /* border: 5px solid red ; */
+    border-radius: 39px ;
+    display: inline-block;
+    background-color: black;
+    padding: 23px;
+}
