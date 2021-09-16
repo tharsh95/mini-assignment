@@ -10,7 +10,7 @@ let val = ""
 // console.log(isPalindrome(1331))
 
 function handleChange(e) {
-    val = e
+    val = e.toLowerCase()
 }
 let btn =document.getElementById("btn")
 let para =document.getElementById("para")
